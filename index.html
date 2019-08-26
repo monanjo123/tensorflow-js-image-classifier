@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet@2.0.2"></script>
+    <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
+</head>
+<body>
+    <div id="console"></div>
+
+    <!-- <img id="img" crossOrigin src="https://i.imgur.com/dcYnS4v.jpg" width=227 height=227/> -->
+    <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
+    <button id="class-a">Add A</button>
+    <button id="class-b">Add B</button>
+    <button id="class-c">Add C</button>
+    <button id="class-d">Add D</button>
+    <script src="index.js"></script>
+</body>
+</html>
